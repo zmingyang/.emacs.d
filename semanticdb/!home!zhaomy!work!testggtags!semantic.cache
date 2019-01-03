@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("main" function (:type "int") nil [45 134]))          
+      :file "test.cpp"
+      :pointmax 135
+      :fsize 134
+      :lastmodtime '(23597 58213 387981 800000)
+      :unmatched-syntax '((punctuation 43 . 44) (symbol 40 . 43) (punctuation 39 . 40) (symbol 35 . 39) (punctuation 34 . 35) (symbol 29 . 34) (punctuation 28 . 29) (symbol 21 . 27) (punctuation 20 . 21))))
+  :file "!home!zhaomy!work!testggtags!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
